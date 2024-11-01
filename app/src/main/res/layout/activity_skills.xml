@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Skills"
+    android:background="@drawable/background_image"
+    >
+
+    <TextView
+        android:id="@+id/tVskills_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:text="Skills Section"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="Technical Skills"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/white"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/blue_card"
+        app:cardBackgroundColor="#615EFC"
+        app:cardCornerRadius="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/cpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="12dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/kotlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="12dp">
+
+        </ImageView>
+
+        <!-- Second Row  -->
+
+        <TextView
+            android:id="@+id/HTML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="60dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/CSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSS"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Javascript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javascript"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="60dp">
+
+        </ImageView>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/Soft_Skills"
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="Soft Skills"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/white"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/blue_card2"
+        app:cardBackgroundColor="#615EFC"
+        app:cardCornerRadius="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        >
+
+        <TextView
+            android:id="@+id/Leadership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leadership"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TeamWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Work"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="250sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="226dp"
+            android:layout_marginTop="12dp">
+
+        </ImageView>
+
+
+        <!-- Second Row  -->
+
+        <TextView
+            android:id="@+id/Stage_Confidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage Confidence"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="50dp">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/Verb_communication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verbal Communication"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="72dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="80dp">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/Friendly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friendly, Positive Attitude"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="108dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:src="@drawable/baseline_lens_24"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="115dp">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+</LinearLayout>
